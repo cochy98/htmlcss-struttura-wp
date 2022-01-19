@@ -5,18 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Struttura WP</title>
+
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
+    <!-- container con max-with 900px posto al centro pagina -->
+    <div class="container">
+        <header>
 
-    </header>
+        </header>
 
-    <main>
+        <main>
+            <section class="jumbotron">
 
-    </main>
+            </section>
 
-    <footer>
+            <!-- section 'main' con classe 'clearfix' per evitare che collassa il main -->
+            <section class="main clearfix">
 
-    </footer>
+                <!-- main-header -->
+                <div class="main-header bg-grey"></div>
+                
+                <!-- main-nav 1 -->
+                <div class="main-nav bg-grey fl-left"></div>
+                
+                <!-- main-article -->
+                <div class="main-article bg-grey fl-left"></div>
+                
+                <!-- main-nav 2 -->
+                <div class="main-nav bg-grey fl-left"></div>
+            </section>
+        </main>
+
+        <footer>
+
+        </footer>
+    </div>
 </body>
 </html>
